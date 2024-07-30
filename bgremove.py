@@ -3,8 +3,8 @@ from rembg import remove
 from PIL import Image
 
 ## Path for input and output image
-input_img = 'ash.jpg'
-output_img = 'ash_rmbg_out.png'
+input_img = 'input_image.jpg'
+output_img = 'output_image.png'
 
 ## loading and removing background
 inp = Image.open(input_img)
