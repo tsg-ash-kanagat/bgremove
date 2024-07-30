@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-bgremove"
+version = "0.1.0"
+description = ""
+authors = ["Ash_K <77124115+tsg-ash-kanagat@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+rembg = "^2.0.57"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
